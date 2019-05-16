@@ -1,0 +1,6 @@
+[submodule "Case-Parts-APIs"]
+	path = Case-Parts-APIs
+	url = https://github.com/vlopezjr/Case-Parts-APIs
+[submodule "WinformsValidation"]
+	path = WinformsValidation
+	url = https://github.com/vlopezjr/WinformsValidation

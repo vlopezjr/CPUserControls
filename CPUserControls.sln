@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPUserControls", "CPUserControls\CPUserControls.csproj", "{DD27DBA7-3B2B-4D04-805C-F288013294D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCustomer.API", "Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj", "{71145D0B-996D-47B5-891F-4269FCE0245D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsValidation", "WinformsValidation\WinformsValidation\WinformsValidation.csproj", "{D6ACB15E-7A29-46A4-B050-BA71A6AB901F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DD27DBA7-3B2B-4D04-805C-F288013294D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD27DBA7-3B2B-4D04-805C-F288013294D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD27DBA7-3B2B-4D04-805C-F288013294D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71145D0B-996D-47B5-891F-4269FCE0245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71145D0B-996D-47B5-891F-4269FCE0245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71145D0B-996D-47B5-891F-4269FCE0245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71145D0B-996D-47B5-891F-4269FCE0245D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ACB15E-7A29-46A4-B050-BA71A6AB901F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ACB15E-7A29-46A4-B050-BA71A6AB901F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ACB15E-7A29-46A4-B050-BA71A6AB901F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ACB15E-7A29-46A4-B050-BA71A6AB901F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,10 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CreateCustomer.API, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Case Parts APIs\CreateCustomer.API\bin\Debug\CreateCustomer.API.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -48,10 +44,6 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WinformsValidation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\WinformsValidation\WinformsValidation\bin\Debug\WinformsValidation.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressModule\AddressControl.cs">
@@ -243,6 +235,16 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
+      <Project>{71145d0b-996d-47b5-891f-4269fce0245d}</Project>
+      <Name>CreateCustomer.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinformsValidation\WinformsValidation\WinformsValidation.csproj">
+      <Project>{d6acb15e-7a29-46a4-b050-ba71a6ab901f}</Project>
+      <Name>WinformsValidation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
