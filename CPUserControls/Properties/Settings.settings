@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CPUserControls.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ISTATETaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Interstate</Value>
+    </Setting>
+    <Setting Name="ISTATETaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">168</Value>
+    </Setting>
+    <Setting Name="ISTATETaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.0</Value>
+    </Setting>
+    <Setting Name="GOVTaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Government</Value>
+    </Setting>
+    <Setting Name="GOVTaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">172</Value>
+    </Setting>
+    <Setting Name="GovTaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.0</Value>
+    </Setting>
+    <Setting Name="INTLTaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">International</Value>
+    </Setting>
+    <Setting Name="INTLTaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">178</Value>
+    </Setting>
+    <Setting Name="INTLTaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.0</Value>
+    </Setting>
+    <Setting Name="MPKTaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Los Angeles</Value>
+    </Setting>
+    <Setting Name="MPKTaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">36</Value>
+    </Setting>
+    <Setting Name="MPKTaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.0950</Value>
+    </Setting>
+    <Setting Name="SEATaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1715 +WA Base</Value>
+    </Setting>
+    <Setting Name="SEATaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">293</Value>
+    </Setting>
+    <Setting Name="SEATaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.100</Value>
+    </Setting>
+    <Setting Name="STLTaxId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Missouri</Value>
+    </Setting>
+    <Setting Name="STLTaxKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">170</Value>
+    </Setting>
+    <Setting Name="STLTaxRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.08863</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

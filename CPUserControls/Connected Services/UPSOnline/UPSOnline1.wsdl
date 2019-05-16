@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidateClassifyAddressXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addr1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip5" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateClassifyAddressXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidateClassifyAddressXMLResult" type="tns:Response" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Response">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Consignee" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Zip5" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Zip4" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Classification" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Count" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMessage" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ValidateClassifyAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addr1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip4" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateClassifyAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValidateClassifyAddressResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip4" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="classification" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClassifyAddressXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addr1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip4" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClassifyAddressXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassifyAddressXMLResult" type="tns:Response" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClassifyAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addr1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="addr2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip4" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClassifyAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClassifyAddressResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="classification" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidateClassifyAddressXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateClassifyAddressXML" />
+  </wsdl:message>
+  <wsdl:message name="ValidateClassifyAddressXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateClassifyAddressXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateClassifyAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateClassifyAddress" />
+  </wsdl:message>
+  <wsdl:message name="ValidateClassifyAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateClassifyAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClassifyAddressXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ClassifyAddressXML" />
+  </wsdl:message>
+  <wsdl:message name="ClassifyAddressXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ClassifyAddressXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClassifyAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:ClassifyAddress" />
+  </wsdl:message>
+  <wsdl:message name="ClassifyAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:ClassifyAddressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UPSOnlineSoap">
+    <wsdl:operation name="ValidateClassifyAddressXML">
+      <wsdl:input message="tns:ValidateClassifyAddressXMLSoapIn" />
+      <wsdl:output message="tns:ValidateClassifyAddressXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateClassifyAddress">
+      <wsdl:input message="tns:ValidateClassifyAddressSoapIn" />
+      <wsdl:output message="tns:ValidateClassifyAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddressXML">
+      <wsdl:input message="tns:ClassifyAddressXMLSoapIn" />
+      <wsdl:output message="tns:ClassifyAddressXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddress">
+      <wsdl:input message="tns:ClassifyAddressSoapIn" />
+      <wsdl:output message="tns:ClassifyAddressSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UPSOnlineSoap" type="tns:UPSOnlineSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidateClassifyAddressXML">
+      <soap:operation soapAction="http://tempuri.org/ValidateClassifyAddressXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateClassifyAddress">
+      <soap:operation soapAction="http://tempuri.org/ValidateClassifyAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddressXML">
+      <soap:operation soapAction="http://tempuri.org/ClassifyAddressXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddress">
+      <soap:operation soapAction="http://tempuri.org/ClassifyAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UPSOnlineSoap12" type="tns:UPSOnlineSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidateClassifyAddressXML">
+      <soap12:operation soapAction="http://tempuri.org/ValidateClassifyAddressXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateClassifyAddress">
+      <soap12:operation soapAction="http://tempuri.org/ValidateClassifyAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddressXML">
+      <soap12:operation soapAction="http://tempuri.org/ClassifyAddressXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyAddress">
+      <soap12:operation soapAction="http://tempuri.org/ClassifyAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UPSOnline">
+    <wsdl:port name="UPSOnlineSoap" binding="tns:UPSOnlineSoap">
+      <soap:address location="http://172.30.39.158/UPSOnlineSL/UPSOnline.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UPSOnlineSoap12" binding="tns:UPSOnlineSoap12">
+      <soap12:address location="http://172.30.39.158/UPSOnlineSL/UPSOnline.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
