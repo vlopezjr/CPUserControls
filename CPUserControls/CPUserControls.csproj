@@ -237,11 +237,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
+    <ProjectReference Include="..\..\Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
       <Project>{71145d0b-996d-47b5-891f-4269fce0245d}</Project>
       <Name>CreateCustomer.API</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WinformsValidation\WinformsValidation\WinformsValidation.csproj">
+    <ProjectReference Include="..\..\WinformsValidation\WinformsValidation\WinformsValidation.csproj">
       <Project>{d6acb15e-7a29-46a4-b050-ba71a6ab901f}</Project>
       <Name>WinformsValidation</Name>
     </ProjectReference>
